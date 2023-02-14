@@ -32,6 +32,7 @@ public class Welcome extends HttpServlet {
 	response.setContentType("text/html");
 	PrintWriter out=response.getWriter();
 	out.print("<h1>"+"Welcome to server"+"</h1>");
+	out.print("<h1>"+"Welcome to server"+"</h1>");
 	
 	}
 	//developer
